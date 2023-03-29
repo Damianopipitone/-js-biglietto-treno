@@ -26,4 +26,5 @@ if (age < 18) {
     console.log (n2);
 };
 
-console.log (trainPrice);
+console.log(trainPrice);
+document.getElementById(finalPrice).innerHTML = (n1);
