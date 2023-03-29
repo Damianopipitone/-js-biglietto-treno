@@ -24,7 +24,12 @@ if (age < 18) {
     console.log (n1);
 } else if (age > 65) {
     console.log (n2);
+}; if (18 < age > 65) {
+    console.log (trainPrice);
 };
 
 console.log(trainPrice);
-document.getElementById(finalPrice).innerHTML = (n1);
+
+document.getElementById("finalPrice1").innerHTML = (n1);
+
+document.getElementById("finalPrice2").innerHTML = (n2);
